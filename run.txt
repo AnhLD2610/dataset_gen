@@ -1,2 +1,5 @@
-python prepare_data.py
-python reduce_reasoning.py
+python prepare_data.py loaddata
+python reduce_reasoning.py cho gpt
+gen_data_final_deepseek.py cho deepseek
+chỉnh config ở đầu file reduce_reasoning.py
+chỉnh config dòng 225 file gen_data_final_deepseek.py (đang để  'TENSOR_PARALLEL': 4,)
