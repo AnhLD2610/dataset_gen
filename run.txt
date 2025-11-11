@@ -1,0 +1,2 @@
+python prepare_data.py
+python reduce_reasoning.py
